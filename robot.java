@@ -56,7 +56,7 @@ public class Auto_Score_Specimen_Middle extends LinearOpMode {
 
 
     // this is ALMOST the best code
-    private static final double TICKS_PER_REV = 28 * (((1+(46.0/17)))*(1+(46.0/11))); // NEED TO CHANGE
+    private static final double TICKS_PER_REV = 30 * (((1+(46.0/17)))*(1+(46.0/11))); // NEED TO CHANGE
     private static final double WHEEL_DIAMETER_MILLIMETER = 104; // Diameter of the wheel in millimeter
     private static final double CIRCUMFERENCE = Math.PI * WHEEL_DIAMETER_MILLIMETER; // Circumference
     private static final double TICKS_PER_MILLIMETER = TICKS_PER_REV / CIRCUMFERENCE;
@@ -453,7 +453,7 @@ public class Auto_Score_Specimen_Middle extends LinearOpMode {
         intake(-1);
         armPosition(ARM_CLEAR_BARRIER+(10*ARM_TICKS_PER_DEGREE), 0, 2100);
         slidePosition(1);
-        wrist(0);
+        wrist(1);
         armPosition(ARM_SCORE_SPECIMEN+(0*ARM_TICKS_PER_DEGREE), 0, 2100);
         driveStraight(0.5,-700,0);
         
