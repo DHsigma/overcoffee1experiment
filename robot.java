@@ -453,7 +453,7 @@ public class Auto_Score_Specimen_Middle extends LinearOpMode {
         intake(-1);
         armPosition(ARM_CLEAR_BARRIER+(10*ARM_TICKS_PER_DEGREE), 0, 2100);
         slidePosition(1);
-        wrist(0);
+        wrist(1);
         armPosition(ARM_SCORE_SPECIMEN+(0*ARM_TICKS_PER_DEGREE), 0, 2100);
         driveStraight(0.5,-700,0);
         
