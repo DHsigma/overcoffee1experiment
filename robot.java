@@ -522,16 +522,16 @@ public class Auto_Score_Specimen_Middle extends LinearOpMode {
         
         
         
-        
-        // driveStraight(0.5,-1000,0);
-        // driveStrafe(0.5,300,0,-1);
-        // driveStraight(0.5,1100,0);
-        // driveStraight(0.5,-1100,0);
-        // driveStrafe(0.5,300,0,-1);
-        // driveStraight(0.5,1100,0);
-        // driveStraight(0.5,-300,0);
-        // sleep(2000);
-        // driveStraight(0.5,300,0);
+        //losers i will kill the robot
+        driveStraight(0.5,-1000,0);
+        driveStrafe(0.5,300,0,-1);
+        driveStraight(0.5,1100,0);
+        driveStraight(0.5,-1100,0);
+        driveStrafe(0.5,300,0,-1);
+        driveStraight(0.5,1100,0);
+        driveStraight(0.5,-300,0);
+        sleep(2000);
+        driveStraight(0.5,300,0);
         
         
         
